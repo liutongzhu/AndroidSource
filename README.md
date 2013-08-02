@@ -4,6 +4,7 @@ AndroidSource
 收藏Android开源项目
 
 ### 001 ViewFlipper ###
+
 应用场景：浏览照片自动播放等
 ![1](./ViewFlipper/ViewFlipper1.png)
 ![2](./ViewFlipper/ViewFlipper2.png)
