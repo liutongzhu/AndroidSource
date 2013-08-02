@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="center"
+android:background="#666666"
+android:text="@string/demo" />
+<ViewFlipper
+android:layout_margin="0dip"
+android:id="@+id/view_flipper"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:gravity="center">
+<ImageView
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:background="#000000"
+android:contentDescription="@string/image"
+android:src="@drawable/pavilion_1">
+</ImageView>
+</LinearLayout>
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:gravity="center">
+<ImageView
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:background="#000000"
+android:contentDescription="@string/image"
+android:src="@drawable/pavilion_2">
+</ImageView>
+</LinearLayout>
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:gravity="center">
+<ImageView
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:background="#000000"
+android:contentDescription="@string/image"
+android:src="@drawable/pavilion_3">
+</ImageView>
+</LinearLayout>
+</ViewFlipper>
+</LinearLayout>
