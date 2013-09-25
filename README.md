@@ -28,3 +28,7 @@ AndroidSource
 
 ### 006 Shelves
 应用场景：数据处理和UI设计可以借鉴
+
+### 007 360FloatWindowDemo
+应用场景：浮动层类似360奇艺桌面小图标，可以拖动
+
