@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/jsdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tips"
+        android:layout_marginTop="22dp"
+        android:onClick="onJsDownload"
+        android:text="加速下载" />
+
+    <Button
+        android:id="@+id/ptdown"
+        android:onClick="onPtDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jsdown"
+        android:layout_marginTop="22dp"
+        android:text="普通下载" />
+
+</RelativeLayout>
